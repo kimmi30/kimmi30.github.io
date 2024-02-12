@@ -1,0 +1,41 @@
+body {
+    font-style: bold;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: rgb(0, 195, 255);
+}
+
+.site-title {
+    color: yellow;
+}
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+.my-hobbies {
+    list-style: square;
+}
+
+.my-hobbies li:nth-child(odd){
+    background-color: brown;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 8px 12px;
+    background-color: aquamarine;
+    border: 1px solid #2980b9;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+nav a:hover,nav a:focus {
+    background-color: #2980b9;
+}
